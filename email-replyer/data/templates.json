@@ -1,0 +1,42 @@
+{
+  "meeting_request": [
+    "Hi {name}, I can do {time1} or {time2}. Which works for you?",
+    "Hello {name}, I'm available {time1}. If that doesn't work, please suggest another time.",
+    "Thanks {name}. I can meet {time1}. Looking forward to it."
+  ],
+  "reschedule": [
+    "Hi {name}, sorry for the conflict — can we move it to {time1}?",
+    "Hello, can we reschedule the meeting to {time1}? Please confirm.",
+    "Sorry for the short notice — can we shift it to {time1}?"
+  ],
+  "thank_you": [
+    "You're welcome, {name}! Happy to help.",
+    "Hi {name}, glad it helped — let me know if you need anything else.",
+    "Thanks {name}, always happy to support."
+  ],
+  "job_inquiry": [
+    "Hello, thanks for your interest in the role. Please attach your resume and we will review it.",
+    "Hi {name}, we received your application. We'll get back to you with next steps.",
+    "Thanks for applying. Can you share your resume and location?"
+  ],
+  "support_bug": [
+    "Thanks for the report — can you share reproduction steps and screenshots?",
+    "We received your bug report. Our team will investigate and update you.",
+    "Sorry for the inconvenience. Can you confirm environment and logs?"
+  ],
+  "billing_query": [
+    "Hi {name}, we are checking invoice {invoice}. We'll update you shortly.",
+    "Hello, we received your billing request about {invoice}. Can you share the transaction id?",
+    "Thanks — we will look into the charge and follow up with a refund if applicable."
+  ],
+  "call_request": [
+    "Hi {name}, I can call at {time1}. Does that work for you?",
+    "Hello, I'm free {time1} — I'll call you at the number you provided.",
+    "Thanks — please share a good time and phone number and I'll call."
+  ],
+  "spam": [
+    "This looks like spam. Do not click links and mark as spam.",
+    "Automatic reply: This message appears to be promotional. Please verify sender.",
+    "Caution: suspicious content detected — treat as spam."
+  ]
+}

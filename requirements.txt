@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+python-multipart
+spacy
+dateparser
