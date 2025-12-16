@@ -47,3 +47,21 @@ explainable level.
 ## 📁 Project Structure
 
 
+email-auto-reply-generator/
+│
+├── email-replyer/
+│ ├── src/
+│ │ ├── server.py # FastAPI server
+│ │ ├── generator.py # Reply generation logic
+│ │ ├── ranker.py # Reply ranking logic
+│ │ ├── slot_extractor.py # Slot extraction utilities
+│ │ ├── train_intent.py # ML model training script
+│ │ └── model/ # Trained model (ignored in Git)
+│ │
+│ ├── data/
+│ │ ├── templates.json # Reply templates
+│ │ └── labeled_email.csv # Training dataset
+│
+├── requirements.txt
+├── scaffold_create.py
+└── README.md
